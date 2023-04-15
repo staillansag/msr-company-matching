@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<IDataXMLCoder version="1.0">
+  <record javaclass="com.wm.data.ISMemDataImpl">
+    <value name="name">STT_MSR_Companymatching</value>
+    <value name="description">STT_MSR_Companymatching</value>
+    <number name="lastUploadedTime" type="java.lang.Long">1681546242245</number>
+    <number name="lastSavedTime" type="java.lang.Long">1681546243674</number>
+    <array name="packages" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="package">CompanyMatching</value>
+        <array name="details" type="record" depth="1">
+          <record javaclass="com.wm.data.ISMemDataImpl">
+            <value name="serviceName">CompanyMatching.service:listUnmatchedFileProjects</value>
+            <value name="displayName">listUnmatchedFileProjects</value>
+            <jboolean name="isShared">true</jboolean>
+            <jboolean name="useBatch">false</jboolean>
+          </record>
+          <record javaclass="com.wm.data.ISMemDataImpl">
+            <value name="serviceName">CompanyMatching.service:massUpsertMazProjects</value>
+            <value name="displayName">massUpsertMazProjects</value>
+            <jboolean name="isShared">true</jboolean>
+            <jboolean name="useBatch">false</jboolean>
+          </record>
+          <record javaclass="com.wm.data.ISMemDataImpl">
+            <value name="serviceName">CompanyMatching.service:upsertMazProject</value>
+            <value name="displayName">upsertMazProject</value>
+            <jboolean name="isShared">true</jboolean>
+            <jboolean name="useBatch">false</jboolean>
+          </record>
+        </array>
+      </record>
+    </array>
+    <array name="connections" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="connectionName">default_account_prod</value>
+        <value name="connectionStage">stage00</value>
+        <value name="tenantAlias">presalesemea_prod</value>
+      </record>
+    </array>
+    <array name="tenantAliases" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="tenantAlias">presalesemea_prod</value>
+      </record>
+    </array>
+  </record>
+</IDataXMLCoder>
