@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: environment-config
+  name: company-matching-config
 data:
   wmioIntegrationUrl: "webMethods.io Integration URL"
   databaseServerName: "Database name"

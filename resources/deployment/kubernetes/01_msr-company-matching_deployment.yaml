@@ -37,46 +37,46 @@ spec:
                 fieldRef:
                   fieldPath: metadata.name
             - name: DATASOURCE_CLASS
-              value: org.postgresql.ds.PGSimpleDataSource
+              value: com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
             - name: DB_USER
               valueFrom:
                 secretKeyRef:
-                  name: environment-secrets
+                  name: company-matching-secrets
                   key: databaseUser
             - name: DB_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: environment-secrets
+                  name: company-matching-secrets
                   key: databasePassword
             - name: DB_SERVERNAME
               valueFrom:
                 configMapKeyRef:
-                  name: environment-config
+                  name: company-matching-config
                   key: databaseServerName
             - name: DB_PORT
               valueFrom:
                 configMapKeyRef:
-                  name: environment-config
+                  name: company-matching-config
                   key: databaseServerPort
             - name: DB_NAME
               valueFrom:
                 configMapKeyRef:
-                  name: environment-config
+                  name: company-matching-config
                   key: databaseName
             - name: IO_INT_URL
               valueFrom:
                 configMapKeyRef:
-                  name: environment-config
+                  name: company-matching-config
                   key: wmioIntegrationUrl
             - name: IO_INT_USER
               valueFrom:
                 secretKeyRef:
-                  name: environment-secrets
+                  name: company-matching-secrets
                   key: wmioIntegrationUser
             - name: IO_INT_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: environment-secrets
+                  name: company-matching-secrets
                   key: wmioIntegrationPassword
           livenessProbe:
             tcpSocket:

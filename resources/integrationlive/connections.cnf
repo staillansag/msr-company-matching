@@ -5,8 +5,8 @@
     <array name="IntegrationLiveConnections" type="record" depth="1">
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="tenantAlias">default</value>
-        <value name="lastUploadedTimeStr">2023-04-04 14:46:44 CEST</value>
-        <jboolean name="uploadPending">true</jboolean>
+        <value name="lastUploadedTimeStr">2023-04-16 14:12:15 CEST</value>
+        <jboolean name="uploadPending">false</jboolean>
         <value name="aliasName">default_account</value>
         <value name="description">Default account</value>
         <value name="stage">stage00</value>
@@ -21,8 +21,8 @@
         <jboolean name="isForAdminUse">false</jboolean>
         <record name="properties" javaclass="com.wm.data.ISMemDataImpl">
         </record>
-        <number name="lastUploadedTime" type="java.lang.Long">1680612404071</number>
-        <number name="lastSavedTime" type="java.lang.Long">1680612404072</number>
+        <number name="lastUploadedTime" type="java.lang.Long">1681647135463</number>
+        <number name="lastSavedTime" type="java.lang.Long">1681622206289</number>
         <number name="timeToLive" type="java.lang.Long">10000</number>
         <number name="timeToLiveCache" type="java.lang.Long">60</number>
         <null name="keyStoreAlias"/>
@@ -31,7 +31,7 @@
       </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="tenantAlias">presalesemea_prod</value>
-        <value name="lastUploadedTimeStr">2023-04-15 10:12:05 CEST</value>
+        <value name="lastUploadedTimeStr">2023-04-16 14:12:15 CEST</value>
         <jboolean name="uploadPending">false</jboolean>
         <value name="aliasName">default_account_prod</value>
         <value name="description">default_account_prod</value>
@@ -47,15 +47,15 @@
         <jboolean name="isForAdminUse">false</jboolean>
         <record name="properties" javaclass="com.wm.data.ISMemDataImpl">
         </record>
-        <number name="lastUploadedTime" type="java.lang.Long">1681546325341</number>
-        <number name="lastSavedTime" type="java.lang.Long">1681545778523</number>
-        <number name="timeToLive" type="java.lang.Long">10000</number>
+        <number name="lastUploadedTime" type="java.lang.Long">1681647135463</number>
+        <number name="lastSavedTime" type="java.lang.Long">1681625599978</number>
+        <number name="timeToLive" type="java.lang.Long">60000</number>
         <number name="timeToLiveCache" type="java.lang.Long">60</number>
         <null name="keyStoreAlias"/>
         <null name="keyAlias"/>
         <null name="trustStoreAlias"/>
       </record>
     </array>
-    <number name="lastSavedTime" type="java.lang.Long">1681546325352</number>
+    <number name="lastSavedTime" type="java.lang.Long">1681647135480</number>
   </record>
 </IDataXMLCoder>

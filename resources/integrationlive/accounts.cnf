@@ -8,13 +8,13 @@
       <value name="username">intadmin</value>
       <value name="pswdHandle">wm.is.admin.ilive.intadmin.default</value>
       <value name="iLiveURL">https://presalesemeadev.int-aws-de.webmethods.io</value>
-      <value name="umURL">nhps://presalesemeadev-18783f4b746b3.um.int-aws-de.webmethods.io:443//presalesemeadev/</value>
+      <value name="umURL">nhps://presalesemeadev-18789ec305856.um.int-aws-de.webmethods.io:443//presalesemeadev/</value>
       <jboolean name="authenticate">true</jboolean>
       <array name="stages" type="record" depth="1">
         <record javaclass="com.wm.data.ISMemDataImpl">
           <value name="stageName">stage00</value>
           <value name="stageDisplayName">Development</value>
-          <value name="umURL">nhps://presalesemeadev-18783f4b746b3.um.int-aws-de.webmethods.io:443//presalesemeadev/</value>
+          <value name="umURL">nhps://presalesemeadev-18789ec305856.um.int-aws-de.webmethods.io:443//presalesemeadev/</value>
         </record>
       </array>
       <record name="queueNames" javaclass="com.wm.data.ISMemDataImpl">
@@ -43,13 +43,13 @@
       <value name="username">intadmin</value>
       <value name="pswdHandle">wm.is.admin.ilive.intadmin.presalesemea_prod</value>
       <value name="iLiveURL">https://presalesemeaprod.int-aws-de.webmethods.io/</value>
-      <value name="umURL">nhps://presalesemeaprod-18783f4bf84b4.um.int-aws-de.webmethods.io:443//presalesemeaprod/</value>
+      <value name="umURL">nhps://presalesemeaprod-18789ec36d2104.um.int-aws-de.webmethods.io:443//presalesemeaprod/</value>
       <jboolean name="authenticate">true</jboolean>
       <array name="stages" type="record" depth="1">
         <record javaclass="com.wm.data.ISMemDataImpl">
           <value name="stageName">stage00</value>
           <value name="stageDisplayName">Development</value>
-          <value name="umURL">nhps://presalesemeaprod-18783f4bf84b4.um.int-aws-de.webmethods.io:443//presalesemeaprod/</value>
+          <value name="umURL">nhps://presalesemeaprod-18789ec36d2104.um.int-aws-de.webmethods.io:443//presalesemeaprod/</value>
         </record>
       </array>
       <record name="queueNames" javaclass="com.wm.data.ISMemDataImpl">

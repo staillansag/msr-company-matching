@@ -4,8 +4,8 @@
   <record javaclass="com.wm.data.ISMemDataImpl">
     <value name="name">STT_MSR_Companymatching</value>
     <value name="description">STT_MSR_Companymatching</value>
-    <number name="lastUploadedTime" type="java.lang.Long">1681546242245</number>
-    <number name="lastSavedTime" type="java.lang.Long">1681546243674</number>
+    <number name="lastUploadedTime" type="java.lang.Long">1681647131236</number>
+    <number name="lastSavedTime" type="java.lang.Long">1681647135463</number>
     <array name="packages" type="record" depth="1">
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="package">CompanyMatching</value>
@@ -23,6 +23,12 @@
             <jboolean name="useBatch">false</jboolean>
           </record>
           <record javaclass="com.wm.data.ISMemDataImpl">
+            <value name="serviceName">CompanyMatching.service:updateProjectsByBvDID</value>
+            <value name="displayName">updateProjectsByBvDID</value>
+            <jboolean name="isShared">true</jboolean>
+            <jboolean name="useBatch">false</jboolean>
+          </record>
+          <record javaclass="com.wm.data.ISMemDataImpl">
             <value name="serviceName">CompanyMatching.service:upsertMazProject</value>
             <value name="displayName">upsertMazProject</value>
             <jboolean name="isShared">true</jboolean>
@@ -33,12 +39,20 @@
     </array>
     <array name="connections" type="record" depth="1">
       <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="connectionName">default_account</value>
+        <value name="connectionStage">stage00</value>
+        <value name="tenantAlias">default</value>
+      </record>
+      <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="connectionName">default_account_prod</value>
         <value name="connectionStage">stage00</value>
         <value name="tenantAlias">presalesemea_prod</value>
       </record>
     </array>
     <array name="tenantAliases" type="record" depth="1">
+      <record javaclass="com.wm.data.ISMemDataImpl">
+        <value name="tenantAlias">default</value>
+      </record>
       <record javaclass="com.wm.data.ISMemDataImpl">
         <value name="tenantAlias">presalesemea_prod</value>
       </record>
